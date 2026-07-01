@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel Macro · Banco Central do Brasil</title>
+  <meta name="description" content="Monitor macroeconômico: juros, inflação, câmbio e expectativas de mercado. Fonte: Banco Central do Brasil." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header__left">
+      <h1 class="header__title">Painel <span class="accent">Macro</span></h1>
+      <p class="header__sub" id="updatedAt">Atualizado em —</p>
+    </div>
+    <div class="header__logo">
+      <!-- Troque assets/logo.png pela logo do Grupo Melo Cordeiro -->
+      <img src="./assets/logo.png" alt="Logo"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='inline-block';" />
+      <span class="header__logo-fallback" style="display:none">sua logo em assets/logo.png</span>
+    </div>
+    <div class="header__right">
+      <span class="badge" id="sampleBadge" hidden>dados de amostra</span>
+      <span class="header__source">fonte: Banco Central do Brasil</span>
+    </div>
+  </header>
+  <hr class="rule" />
+
+  <main class="wrap">
+    <!-- Faixa 1: indicadores atuais -->
+    <div class="band-label">Indicadores</div>
+    <div class="band"><div class="cards" id="cards"></div></div>
+
+    <!-- Faixa 2: expectativas Focus -->
+    <div class="band-label">Expectativas de mercado · Focus <span class="note" id="focusRef"></span></div>
+    <div class="band"><div class="cards" id="focus"></div></div>
+
+    <!-- Gráficos -->
+    <h2 class="section-title">Evolução · 24 meses</h2>
+    <div class="charts">
+      <article class="panel panel--wide">
+        <header class="panel__head">
+          <h3 class="panel__title">Câmbio · dólar e euro (PTAX venda)</h3>
+          <span class="panel__unit">R$</span>
+        </header>
+        <div class="panel__body"><canvas id="chartCambio"></canvas></div>
+      </article>
+      <article class="panel">
+        <header class="panel__head">
+          <h3 class="panel__title">Meta Selic</h3>
+          <span class="panel__unit">% a.a.</span>
+        </header>
+        <div class="panel__body"><canvas id="chartSelic"></canvas></div>
+      </article>
+      <article class="panel">
+        <header class="panel__head">
+          <h3 class="panel__title">IPCA · variação mensal</h3>
+          <span class="panel__unit">%</span>
+        </header>
+        <div class="panel__body"><canvas id="chartIpca"></canvas></div>
+      </article>
+    </div>
+
+    <!-- Cotações diárias (câmbio) -->
+    <h2 class="section-title">Cotações diárias · câmbio</h2>
+    <div class="table-wrap">
+      <table class="quotes">
+        <thead>
+          <tr>
+            <th class="l">Data</th><th class="l">Dia</th><th class="l">Tipo</th>
+            <th>Dólar</th><th>Var%</th>
+            <th>Euro</th><th>Var%</th>
+          </tr>
+        </thead>
+        <tbody id="quotesBody"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Dados das APIs públicas do Banco Central do Brasil (SGS, PTAX e Expectativas de Mercado).
+       Conteúdo meramente informativo — não constitui recomendação de investimento.</p>
+    <p id="footerStamp"></p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
