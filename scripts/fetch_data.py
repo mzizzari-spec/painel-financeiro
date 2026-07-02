@@ -36,7 +36,7 @@ HOJE = datetime.now(timezone.utc)
 # Séries do SGS: código -> (chave interna, rótulo)
 SGS_SERIES = {
     432: ("selic_meta", "Meta Selic"),
-    12:  ("cdi",        "CDI"),
+    4389: ("cdi",       "CDI"),   # CDI anualizado base 252 (% a.a.)
     433: ("ipca_mes",   "IPCA (mês)"),
     189: ("igpm_mes",   "IGP-M (mês)"),
     188: ("inpc_mes",   "INPC (mês)"),
