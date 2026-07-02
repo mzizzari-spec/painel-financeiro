@@ -72,7 +72,7 @@ body {
 .header__title .accent { color: var(--accent); }
 .header__sub { margin: 0.15rem 0 0; color: var(--text-muted); font-size: 0.82rem; }
 .header__logo { justify-self: center; text-align: center; }
-.header__logo img { max-height: 54px; width: auto; }
+.header__logo img { max-height: 100px; width: auto; }
 .header__logo-fallback {
   font-size: 0.8rem; color: var(--text-dim);
   border: 1px dashed var(--border); border-radius: 8px;
