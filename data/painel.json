@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-02T15:14:27+00:00",
+  "atualizado_em": "2026-07-03T12:12:16+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 14.25,
-      "data": "2026-07-02",
+      "data": "2026-07-03",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-06-30",
-          "valor": 10.5
-        },
         {
           "data": "2024-07-01",
           "valor": 10.5
@@ -2941,13 +2937,17 @@
         {
           "data": "2026-07-02",
           "valor": 14.25
+        },
+        {
+          "data": "2026-07-03",
+          "valor": 14.25
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 14.15,
-      "data": "2026-07-01",
+      "data": "2026-07-02",
       "variacao": 0.0
     },
     "ipca_mes": {
@@ -2956,10 +2956,6 @@
       "data": "2026-05-01",
       "variacao": -0.09,
       "serie": [
-        {
-          "data": "2024-06-01",
-          "valor": 0.21
-        },
         {
           "data": "2024-07-01",
           "valor": 0.38
@@ -3074,9 +3070,9 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.195,
-      "data": "2026-07-01",
-      "variacao": 0.0184,
+      "valor": 5.1945,
+      "data": "2026-07-02",
+      "variacao": -0.0005,
       "serie": [
         {
           "data": "2024-07-01",
@@ -5097,14 +5093,18 @@
         {
           "data": "2026-07-01",
           "valor": 5.195
+        },
+        {
+          "data": "2026-07-02",
+          "valor": 5.1945
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.9145,
-      "data": "2026-07-01",
-      "variacao": 0.0039,
+      "valor": 5.9472,
+      "data": "2026-07-02",
+      "variacao": 0.0327,
       "serie": [
         {
           "data": "2024-07-01",
@@ -7125,6 +7125,10 @@
         {
           "data": "2026-07-01",
           "valor": 5.9145
+        },
+        {
+          "data": "2026-07-02",
+          "valor": 5.9472
         }
       ]
     }
