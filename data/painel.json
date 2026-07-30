@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-29T12:05:23+00:00",
+  "atualizado_em": "2026-07-30T11:55:41+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 14.25,
-      "data": "2026-07-29",
+      "data": "2026-07-30",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-07-27",
-          "valor": 10.5
-        },
         {
           "data": "2024-07-28",
           "valor": 10.5
@@ -2941,6 +2937,10 @@
         {
           "data": "2026-07-29",
           "valor": 14.25
+        },
+        {
+          "data": "2026-07-30",
+          "valor": 14.25
         }
       ]
     },
@@ -3074,9 +3074,9 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.1177,
-      "data": "2026-07-28",
-      "variacao": 0.0172,
+      "valor": 5.1217,
+      "data": "2026-07-29",
+      "variacao": 0.004,
       "serie": [
         {
           "data": "2024-07-29",
@@ -5093,14 +5093,18 @@
         {
           "data": "2026-07-28",
           "valor": 5.1177
+        },
+        {
+          "data": "2026-07-29",
+          "valor": 5.1217
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.8347,
-      "data": "2026-07-28",
-      "variacao": 0.0324,
+      "valor": 5.8305,
+      "data": "2026-07-29",
+      "variacao": -0.0042,
       "serie": [
         {
           "data": "2024-07-29",
@@ -7117,6 +7121,10 @@
         {
           "data": "2026-07-28",
           "valor": 5.8347
+        },
+        {
+          "data": "2026-07-29",
+          "valor": 5.8305
         }
       ]
     }
