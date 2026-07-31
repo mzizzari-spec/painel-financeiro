@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-30T11:55:41+00:00",
+  "atualizado_em": "2026-07-31T12:04:37+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 14.25,
-      "data": "2026-07-30",
+      "data": "2026-07-31",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-07-28",
-          "valor": 10.5
-        },
         {
           "data": "2024-07-29",
           "valor": 10.5
@@ -2941,13 +2937,17 @@
         {
           "data": "2026-07-30",
           "valor": 14.25
+        },
+        {
+          "data": "2026-07-31",
+          "valor": 14.25
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 14.15,
-      "data": "2026-07-28",
+      "data": "2026-07-30",
       "variacao": 0.0
     },
     "ipca_mes": {
@@ -3062,9 +3062,9 @@
     },
     "igpm_mes": {
       "label": "IGP-M (mês)",
-      "valor": -0.5,
-      "data": "2026-06-01",
-      "variacao": -1.34
+      "valor": -1.16,
+      "data": "2026-07-01",
+      "variacao": -0.66
     },
     "inpc_mes": {
       "label": "INPC (mês)",
@@ -3074,9 +3074,9 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.1217,
-      "data": "2026-07-29",
-      "variacao": 0.004,
+      "valor": 5.0739,
+      "data": "2026-07-30",
+      "variacao": -0.0478,
       "serie": [
         {
           "data": "2024-07-29",
@@ -5097,14 +5097,18 @@
         {
           "data": "2026-07-29",
           "valor": 5.1217
+        },
+        {
+          "data": "2026-07-30",
+          "valor": 5.0739
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.8305,
-      "data": "2026-07-29",
-      "variacao": -0.0042,
+      "valor": 5.8467,
+      "data": "2026-07-30",
+      "variacao": 0.0162,
       "serie": [
         {
           "data": "2024-07-29",
@@ -7125,6 +7129,10 @@
         {
           "data": "2026-07-29",
           "valor": 5.8305
+        },
+        {
+          "data": "2026-07-30",
+          "valor": 5.8467
         }
       ]
     }
