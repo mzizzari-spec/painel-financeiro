@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-10T11:12:51+00:00",
+  "atualizado_em": "2026-08-11T10:55:06+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 14.0,
-      "data": "2026-08-10",
+      "data": "2026-08-11",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-08-08",
-          "valor": 10.5
-        },
         {
           "data": "2024-08-09",
           "valor": 10.5
@@ -2941,14 +2937,18 @@
         {
           "data": "2026-08-10",
           "valor": 14.0
+        },
+        {
+          "data": "2026-08-11",
+          "valor": 14.0
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 13.9,
-      "data": "2026-08-06",
-      "variacao": -0.25
+      "data": "2026-08-07",
+      "variacao": 0.0
     },
     "ipca_mes": {
       "label": "IPCA (mês)",
@@ -3070,14 +3070,10 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.0908,
-      "data": "2026-08-07",
-      "variacao": -0.0109,
+      "valor": 5.0963,
+      "data": "2026-08-10",
+      "variacao": 0.0055,
       "serie": [
-        {
-          "data": "2024-08-08",
-          "valor": 5.6172
-        },
         {
           "data": "2024-08-09",
           "valor": 5.5115
@@ -5089,19 +5085,19 @@
         {
           "data": "2026-08-07",
           "valor": 5.0908
+        },
+        {
+          "data": "2026-08-10",
+          "valor": 5.0963
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.8845,
-      "data": "2026-08-07",
-      "variacao": 0.0063,
+      "valor": 5.8872,
+      "data": "2026-08-10",
+      "variacao": 0.0027,
       "serie": [
-        {
-          "data": "2024-08-08",
-          "valor": 6.1306
-        },
         {
           "data": "2024-08-09",
           "valor": 6.0208
@@ -7113,6 +7109,10 @@
         {
           "data": "2026-08-07",
           "valor": 5.8845
+        },
+        {
+          "data": "2026-08-10",
+          "valor": 5.8872
         }
       ]
     }
