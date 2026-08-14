@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-13T11:03:32+00:00",
+  "atualizado_em": "2026-08-14T11:01:29+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -2947,7 +2947,7 @@
     "cdi": {
       "label": "CDI",
       "valor": 13.9,
-      "data": "2026-08-11",
+      "data": "2026-08-12",
       "variacao": 0.0
     },
     "ipca_mes": {
@@ -3074,9 +3074,9 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.1639,
-      "data": "2026-08-12",
-      "variacao": 0.0354,
+      "valor": 5.1859,
+      "data": "2026-08-13",
+      "variacao": 0.022,
       "serie": [
         {
           "data": "2024-08-12",
@@ -5097,14 +5097,18 @@
         {
           "data": "2026-08-12",
           "valor": 5.1639
+        },
+        {
+          "data": "2026-08-13",
+          "valor": 5.1859
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.9597,
-      "data": "2026-08-12",
-      "variacao": 0.0388,
+      "valor": 5.9799,
+      "data": "2026-08-13",
+      "variacao": 0.0202,
       "serie": [
         {
           "data": "2024-08-12",
@@ -7125,6 +7129,10 @@
         {
           "data": "2026-08-12",
           "valor": 5.9597
+        },
+        {
+          "data": "2026-08-13",
+          "valor": 5.9799
         }
       ]
     }
