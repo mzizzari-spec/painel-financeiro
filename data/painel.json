@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-08-20T10:36:23+00:00",
+  "atualizado_em": "2026-08-21T10:35:32+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 14.0,
-      "data": "2026-08-20",
+      "data": "2026-08-21",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-08-18",
-          "valor": 10.5
-        },
         {
           "data": "2024-08-19",
           "valor": 10.5
@@ -2941,13 +2937,17 @@
         {
           "data": "2026-08-20",
           "valor": 14.0
+        },
+        {
+          "data": "2026-08-21",
+          "valor": 14.0
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 13.9,
-      "data": "2026-08-18",
+      "data": "2026-08-19",
       "variacao": 0.0
     },
     "ipca_mes": {
@@ -3074,9 +3074,9 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.1714,
-      "data": "2026-08-19",
-      "variacao": -0.0329,
+      "valor": 5.1862,
+      "data": "2026-08-20",
+      "variacao": 0.0148,
       "serie": [
         {
           "data": "2024-08-19",
@@ -5097,14 +5097,18 @@
         {
           "data": "2026-08-19",
           "valor": 5.1714
+        },
+        {
+          "data": "2026-08-20",
+          "valor": 5.1862
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 6.0324,
-      "data": "2026-08-19",
-      "variacao": 0.0053,
+      "valor": 6.057,
+      "data": "2026-08-20",
+      "variacao": 0.0246,
       "serie": [
         {
           "data": "2024-08-19",
@@ -7125,6 +7129,10 @@
         {
           "data": "2026-08-19",
           "valor": 6.0324
+        },
+        {
+          "data": "2026-08-20",
+          "valor": 6.057
         }
       ]
     }
