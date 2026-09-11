@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-09-10T14:12:10+00:00",
+  "atualizado_em": "2026-09-11T14:11:37+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 14.0,
-      "data": "2026-09-10",
+      "data": "2026-09-11",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-09-08",
-          "valor": 10.5
-        },
         {
           "data": "2024-09-09",
           "valor": 10.5
@@ -2941,20 +2937,24 @@
         {
           "data": "2026-09-10",
           "valor": 14.0
+        },
+        {
+          "data": "2026-09-11",
+          "valor": 14.0
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 13.9,
-      "data": "2026-09-09",
+      "data": "2026-09-10",
       "variacao": 0.0
     },
     "ipca_mes": {
       "label": "IPCA (mês)",
-      "valor": 0.07,
-      "data": "2026-07-01",
-      "variacao": -0.09,
+      "valor": -0.32,
+      "data": "2026-08-01",
+      "variacao": -0.39,
       "serie": [
         {
           "data": "2024-09-01",
@@ -3047,13 +3047,17 @@
         {
           "data": "2026-07-01",
           "valor": 0.07
+        },
+        {
+          "data": "2026-08-01",
+          "valor": -0.32
         }
       ]
     },
     "ipca_12m": {
       "label": "IPCA (12m)",
-      "valor": 4.44,
-      "data": "2026-07-01",
+      "valor": 4.22,
+      "data": "2026-08-01",
       "variacao": null
     },
     "igpm_mes": {
@@ -3064,15 +3068,15 @@
     },
     "inpc_mes": {
       "label": "INPC (mês)",
-      "valor": -0.01,
-      "data": "2026-07-01",
-      "variacao": -0.15
+      "valor": -0.32,
+      "data": "2026-08-01",
+      "variacao": -0.31
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.0979,
-      "data": "2026-09-09",
-      "variacao": 0.0123,
+      "valor": 5.1149,
+      "data": "2026-09-10",
+      "variacao": 0.017,
       "serie": [
         {
           "data": "2024-09-09",
@@ -5089,14 +5093,18 @@
         {
           "data": "2026-09-09",
           "valor": 5.0979
+        },
+        {
+          "data": "2026-09-10",
+          "valor": 5.1149
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.9278,
-      "data": "2026-09-09",
-      "variacao": 0.0148,
+      "valor": 5.9481,
+      "data": "2026-09-10",
+      "variacao": 0.0203,
       "serie": [
         {
           "data": "2024-09-09",
@@ -7113,6 +7121,10 @@
         {
           "data": "2026-09-09",
           "valor": 5.9278
+        },
+        {
+          "data": "2026-09-10",
+          "valor": 5.9481
         }
       ]
     }
