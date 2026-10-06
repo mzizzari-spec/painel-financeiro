@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-05T19:10:03+00:00",
+  "atualizado_em": "2026-10-06T16:36:58+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 13.75,
-      "data": "2026-10-05",
+      "data": "2026-10-06",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-10-03",
-          "valor": 10.75
-        },
         {
           "data": "2024-10-04",
           "valor": 10.75
@@ -2941,13 +2937,17 @@
         {
           "data": "2026-10-05",
           "valor": 13.75
+        },
+        {
+          "data": "2026-10-06",
+          "valor": 13.75
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 13.65,
-      "data": "2026-10-02",
+      "data": "2026-10-05",
       "variacao": 0.0
     },
     "ipca_mes": {
@@ -3070,14 +3070,10 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 4.9859,
-      "data": "2026-10-05",
-      "variacao": -0.2379,
+      "valor": 4.9698,
+      "data": "2026-10-06",
+      "variacao": -0.0161,
       "serie": [
-        {
-          "data": "2024-10-03",
-          "valor": 5.485
-        },
         {
           "data": "2024-10-04",
           "valor": 5.4686
@@ -5089,19 +5085,19 @@
         {
           "data": "2026-10-05",
           "valor": 4.9859
+        },
+        {
+          "data": "2026-10-06",
+          "valor": 4.9698
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.5897,
-      "data": "2026-10-05",
-      "variacao": -0.2918,
+      "valor": 5.5975,
+      "data": "2026-10-06",
+      "variacao": 0.0078,
       "serie": [
-        {
-          "data": "2024-10-03",
-          "valor": 6.0423
-        },
         {
           "data": "2024-10-04",
           "valor": 5.9941
@@ -7113,6 +7109,10 @@
         {
           "data": "2026-10-05",
           "valor": 5.5897
+        },
+        {
+          "data": "2026-10-06",
+          "valor": 5.5975
         }
       ]
     }
