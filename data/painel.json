@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-26T16:40:46+00:00",
+  "atualizado_em": "2026-10-27T15:47:57+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -3079,10 +3079,6 @@
       "variacao": 0.463,
       "serie": [
         {
-          "data": "2024-10-24",
-          "valor": 5.7087
-        },
-        {
           "data": "2024-10-25",
           "valor": 5.6969
         },
@@ -5098,10 +5094,6 @@
       "data": "2026-10-26",
       "variacao": 0.5065,
       "serie": [
-        {
-          "data": "2024-10-24",
-          "valor": 6.1677
-        },
         {
           "data": "2024-10-25",
           "valor": 6.1601
