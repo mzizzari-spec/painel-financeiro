@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-28T16:31:21+00:00",
+  "atualizado_em": "2026-10-29T16:47:52+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 13.75,
-      "data": "2026-10-28",
+      "data": "2026-10-29",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-10-26",
-          "valor": 10.75
-        },
         {
           "data": "2024-10-27",
           "valor": 10.75
@@ -2941,13 +2937,17 @@
         {
           "data": "2026-10-28",
           "valor": 13.75
+        },
+        {
+          "data": "2026-10-29",
+          "valor": 13.75
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 13.65,
-      "data": "2026-10-23",
+      "data": "2026-10-28",
       "variacao": 0.0
     },
     "ipca_mes": {
@@ -3062,9 +3062,9 @@
     },
     "igpm_mes": {
       "label": "IGP-M (mês)",
-      "valor": 1.57,
-      "data": "2026-09-01",
-      "variacao": 1.79
+      "valor": 1.47,
+      "data": "2026-10-01",
+      "variacao": -0.1
     },
     "inpc_mes": {
       "label": "INPC (mês)",
@@ -3074,9 +3074,9 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.342,
-      "data": "2026-10-28",
-      "variacao": 0.0074,
+      "valor": 5.3744,
+      "data": "2026-10-29",
+      "variacao": 0.0324,
       "serie": [
         {
           "data": "2024-10-28",
@@ -5089,14 +5089,18 @@
         {
           "data": "2026-10-28",
           "valor": 5.342
+        },
+        {
+          "data": "2026-10-29",
+          "valor": 5.3744
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 5.9515,
-      "data": "2026-10-28",
-      "variacao": 0.0066,
+      "valor": 6.0,
+      "data": "2026-10-29",
+      "variacao": 0.0485,
       "serie": [
         {
           "data": "2024-10-28",
@@ -7109,6 +7113,10 @@
         {
           "data": "2026-10-28",
           "valor": 5.9515
+        },
+        {
+          "data": "2026-10-29",
+          "valor": 6.0
         }
       ]
     }
