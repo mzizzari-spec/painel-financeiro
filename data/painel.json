@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-12T18:01:29+00:00",
+  "atualizado_em": "2026-11-13T17:35:46+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 13.75,
-      "data": "2026-11-12",
+      "data": "2026-11-13",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-11-10",
-          "valor": 11.25
-        },
         {
           "data": "2024-11-11",
           "valor": 11.25
@@ -2941,13 +2937,17 @@
         {
           "data": "2026-11-12",
           "valor": 13.75
+        },
+        {
+          "data": "2026-11-13",
+          "valor": 13.75
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 13.65,
-      "data": "2026-11-11",
+      "data": "2026-11-12",
       "variacao": 0.0
     },
     "ipca_mes": {
@@ -3074,9 +3074,9 @@
     },
     "dolar": {
       "label": "Dólar",
-      "valor": 5.6143,
-      "data": "2026-11-12",
-      "variacao": 0.0537,
+      "valor": 5.6518,
+      "data": "2026-11-13",
+      "variacao": 0.0375,
       "serie": [
         {
           "data": "2024-11-11",
@@ -5089,14 +5089,18 @@
         {
           "data": "2026-11-12",
           "valor": 5.6143
+        },
+        {
+          "data": "2026-11-13",
+          "valor": 5.6518
         }
       ]
     },
     "euro": {
       "label": "Euro",
-      "valor": 6.2133,
-      "data": "2026-11-12",
-      "variacao": 0.0427,
+      "valor": 6.2334,
+      "data": "2026-11-13",
+      "variacao": 0.0201,
       "serie": [
         {
           "data": "2024-11-11",
@@ -7109,6 +7113,10 @@
         {
           "data": "2026-11-12",
           "valor": 6.2133
+        },
+        {
+          "data": "2026-11-13",
+          "valor": 6.2334
         }
       ]
     }
