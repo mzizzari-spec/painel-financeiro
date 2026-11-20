@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-11-19T18:55:28+00:00",
+  "atualizado_em": "2026-11-20T18:26:31+00:00",
   "fonte": "Banco Central do Brasil",
   "janela_meses": 24,
   "amostra": false,
@@ -7,13 +7,9 @@
     "selic_meta": {
       "label": "Meta Selic",
       "valor": 13.75,
-      "data": "2026-11-19",
+      "data": "2026-11-20",
       "variacao": 0.0,
       "serie": [
-        {
-          "data": "2024-11-17",
-          "valor": 11.25
-        },
         {
           "data": "2024-11-18",
           "valor": 11.25
@@ -2941,13 +2937,17 @@
         {
           "data": "2026-11-19",
           "valor": 13.75
+        },
+        {
+          "data": "2026-11-20",
+          "valor": 13.75
         }
       ]
     },
     "cdi": {
       "label": "CDI",
       "valor": 13.65,
-      "data": "2026-11-18",
+      "data": "2026-11-19",
       "variacao": 0.0
     },
     "ipca_mes": {
